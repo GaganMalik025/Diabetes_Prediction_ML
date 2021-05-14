@@ -11,4 +11,41 @@ I have used 2 approaches -
 
 I compared every result provided by each approach. I applied RandomForest, ADABoost, DecisionTrees, NaiveBayes, MLP and SVM.
 
-In the end, I attained ~90% accuracy by RandomForest in approach 2.
+
+Here are the comparisons :
+
+# Approach 1
+
+Precision Scores:
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Unbalanced%20Precision.png?raw=true)
+
+Recall Scores:
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Unbalanced%20Recall.png?raw=true)
+
+F1 Scores:
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Unbalanced%20F1.png?raw=true)
+
+Accuracy Scores:
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Unbalanced%20Accuracies.png?raw=true)
+
+# Approach 2
+
+Precision Scores:
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Balanced%20Precision.png?raw=true)
+
+Recall Scores:
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Balanced%20Recall.png?raw=true)
+
+F1 Scores:
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Balanced%20F1.png?raw=true)
+
+Accuracy Scores:
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Balanced%20Accuracies.png?raw=true)
+
+
+
+Cross Validation Scores (Approach 2) :
+![alt text](https://github.com/GaganMalik025/Diabetes_Prediction_ML/blob/main/Comparisons/Balanced%20CVs.png?raw=true)
+
+
+In the end, I attained ~90% accuracy by RandomForest in Approach 2.
